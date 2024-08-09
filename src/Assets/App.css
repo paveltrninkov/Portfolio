@@ -1,0 +1,188 @@
+/* Global */
+ul {
+  list-style-type: none;
+  /* vv Don't ask why this is needed. I don't know why either. It just is. vv */
+  margin-top: 0px;
+}
+
+li {
+  display: inline;
+}
+
+body {
+  min-width: 500px;
+}
+/* Navigation/Header */
+header {
+  background-color:#282c34;
+  color: #fff;
+  min-height: 3vh;
+}
+
+a {
+  padding: 2px 5px;
+}
+
+header a, header a:visited{
+  color: #fff;
+}
+
+ header a:hover {
+  background-color: #3d424b;
+  border-radius: 25px;
+}
+
+nav li:nth-last-child(-n + 2) {
+  float: right;
+  margin-right: 15px;
+  padding: 2px 5px;
+}
+
+nav li:hover {
+  cursor: pointer;
+  background-color: #3d424b;
+  border-radius: 25px;
+}
+
+/* About Me */
+
+.AboutMe {
+  background-color: #45577a;
+  padding: 10% 20px;
+}
+
+.AboutMe h1, .AboutMe h2 {
+  text-align: center;
+}
+
+.AboutMe img {
+  display: block;
+  margin: auto;
+  border-radius: 45%;
+}
+
+.AboutMe p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.AboutMe ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  border: 3px solid rgb(1, 53, 44);
+  border-radius: 10px;
+  margin: auto;
+  width: 30%;
+}
+
+.AboutMe li {
+  display: block;
+  padding: 2px;
+  margin: 5px 20px;
+  font-weight: 900;
+}
+
+/* Projects */
+
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:#077a45;
+  padding: 5% 0px 5% 0px;
+}
+
+.Projects h2 {
+  text-align: center;
+}
+
+.Projects h2:first-child{
+  width: 100%;
+}
+
+.Projects img {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.Projects p {
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.Projects div {
+  width: 35%;
+  min-width: 350px;
+  height: 30vw;
+  min-height: 350px;
+  margin: 10px 25px;
+  background-color: aqua;
+  border: 3px solid #45577a;
+  border-radius: 25px;
+  padding: 5px 20px;
+}
+
+.Projects a{
+  color: #000;
+  text-decoration: none;
+}
+/* Contact Me */
+
+.ContactMe {
+  background-color:#4b032f;
+  padding: 10%;
+  color:#fff;
+  font-size: 1.5rem;
+}
+
+.ContactMe h2 {
+  text-align: center;
+}
+.ContactMe div label {
+  margin: 10px;
+}
+
+.ContactMe input, .ContactMe  textarea, .ContactMe select{
+  display:block;
+  width: 100%;
+  min-height: 20px;
+}
+
+.ContactMe form {
+  width: 30%;
+  margin: auto;
+}
+
+.ContactMe button {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #04eaf1;
+  border-radius: 50px;
+  box-shadow: 2px 2px #000;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+/* Footer */
+
+footer {
+  background-color:#282c34;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Error */
+
+.Error {
+  color: red;
+}
